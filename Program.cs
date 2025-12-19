@@ -2,7 +2,7 @@
 
 void Menu()
 {
-    Day[] days = { new Day1() };
+    Day[] days = { new Day1(), new Day2() };
 
     Console.WriteLine("Options: ");
     foreach (Day day in days) {  Console.WriteLine(day); }
