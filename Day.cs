@@ -14,7 +14,7 @@
 
         public void Execute()
         {
-            var inputLines = GetInputList(dayNumber);
+            List<string> inputLines = GetInputList(dayNumber);
 
             Console.WriteLine($"Part1: {Part1(inputLines)}");
             Console.WriteLine($"Part2: {Part2(inputLines)}");
